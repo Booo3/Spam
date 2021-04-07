@@ -1,0 +1,20 @@
+{
+	"name" : "Badly made Spam mod",
+	"description" : "Wow hacker how do you spam dat",
+	"author" : "Boo³",
+	"version" : "2.0",
+	"blt_version" : 2,
+	"image" : "spam.png",
+	"hooks" : [
+		{
+			"hook_id" : "lib/entry",
+			"script_path" : "SPAM.lua"
+		}
+	]
+	"updates" : [
+		{
+			"identifier" : "spam",
+			"host": {"meta": "https://raw.githubusercontent.com/Booo3/updating_mods/main/meta.json"}
+		}
+	]
+}
